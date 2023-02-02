@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&display=swap");
+body {
+  font-family: "Happy Monkey", cursive;
+  background: linear-gradient(lightblue, pink);
+  color: white;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid pink;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-shadow: 0px 0px 1px black;
+}
+/* h2,
+h4 {
+  background-color: pink;
+} */
+#birth-age {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#birth-date {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.happy {
+  margin-bottom: 10px;
+}
+.hover {
+  margin-top: 0px;
+}
+.gift {
+  margin-top: 50px;
+}
+.fix-img {
+  height: 400px;
+  width: 400px;
+  border: 6px solid lightblue;
+  border-radius: 6px;
+  background-image: url("https://image.similarpng.com/thumbnail/2021/12/Red-gift-Ribbon-Bow-on-transparent-background-PNG.png");
+  background-size: cover;
+  margin: 0px auto 0px auto;
+}
+#fix-img1:hover {
+  background-image: url("https://media2.giphy.com/media/5GoVLqeAOo6PK/200w.gif?cid=6c09b9524a68nais727t21ksivqcl7k5c2niss5sqlq7n14e&rid=200w.gif&ct=g");
+}
+
+#fix-img2:hover {
+  background-image: url("https://media4.giphy.com/media/l0EoBCmxtSZhJQvxS/200w.webp?cid=ecf05e47igrjygcbiudg3oh4ip45hpnobj45shdukb3xd2ee&rid=200w.webp&ct=g");
+}
+#fix-img3:hover {
+  background-image: url("https://media0.giphy.com/media/6eyXkeCYdyv1Ot98z6/200.webp?cid=ecf05e47j1r70aq9nk6xjvh817d1c6nlcloaoveixs313xa9&rid=200.webp&ct=g");
+}
+#fix-img4:hover {
+  background-image: url("https://media.tenor.com/MGYiRNQWgQwAAAAM/thats-badass-amazed.gif");
+}
+#fix-img5 {
+  height: 200px;
+ 
+}
+#fix-img5:hover {
+  background-image: url("https://thumbs.gfycat.com/BewitchedAngelicHornet.webp");
+}
+.footer {
+  margin: 10px 0px;
+  font-style: italic;
+}
+p {
+  margin-bottom: 0px;
+}
+a {
+  color: white;
+}
